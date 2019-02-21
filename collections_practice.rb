@@ -40,4 +40,5 @@ end
 
 def add_s(array)
   array.each_with_index.collect {|word| word.insert(-1,'s')}
+  next if index == 1
 end
